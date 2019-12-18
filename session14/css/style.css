@@ -1,0 +1,282 @@
+*{
+    font-family: serif;
+}
+body{
+    padding: 0;
+    margin: 0;
+    order: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: rgb(39, 41, 35);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+nav ul{
+    margin:0 auto;
+    padding-top: 50px;
+   width: 100%;
+   height: 80px;
+   display: flex;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 30px;
+}
+nav ul a{
+    color: snow;
+    padding: 25px 30px;
+    text-decoration: none;
+}
+ul a:hover{
+  color: burlywood;
+}
+/* END OF VAV */
+/* HOME */
+
+#home{
+   background-image: url(../images/showcase.jpg);
+     width: 100%;
+     height: 960px;
+     color: snow;
+     text-align: center;;
+     font-size: 20px;
+     font-family: serif;
+}
+#home h2{
+    
+    padding: 70px; 
+}
+#home h3{
+    padding: 30px; 
+}
+#home p{
+    padding: 10px 300px;
+}
+
+/* END OF HOME */
+/* ABOUT */
+
+#about{
+    background-color: rgb(161, 136, 161);
+     width: 100%;
+     height: 800px;
+     color: bisque;
+     text-align: center;
+     font-size: 20px;
+     font-family: serif;
+}
+#about h2{
+    margin: 0;
+    padding: 50px;
+}
+#about h3{
+    padding: 20px;
+}
+#about p{
+    padding: 10px 300px;
+}
+#about button{
+    background-color: rgb(219, 118, 35);
+    width: 180px;
+    height: 40px;
+    color: white;
+    border: 0;
+}
+/* END OF ABOUTE */
+/* SERVICES */
+#services{
+    background-color: rgb(233, 200, 200);
+    width: 100%;
+    height: 700px;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+}
+#services h3{
+    margin: 0;
+    padding: 50px;
+}
+#services p{
+    padding: 10px 200px;
+}
+#services button{
+    background-color: rgb(219, 118, 35);
+    width: 180px;
+    height: 40px;
+    color:black;
+    border: 0;
+}
+#services img{
+    padding: 10px;
+}
+/* END OF services */
+/* CONTACT */
+#contact{
+    background-image: url('../images/section-bg.jpg');
+    width: 100%;
+    height: 600px;
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: serif;
+}
+#contact h3{
+    margin: 0;
+    padding: 70px;
+}
+#contact p{
+ padding: 0px 300px;
+}
+/* END OF CONTACT */
+/* OTHER */
+#other{
+    background-color: white;
+    width: 100%;
+    height: 450px;
+    text-align: left;
+    font-family: serif;
+    padding: 20px;
+}
+#other img{
+   float: left;
+   padding: 0 60px;
+   margin-left: 220px;
+}
+#other h3{
+ margin-right: 200px;
+ padding: 20px;
+}
+#other p{
+    text-align: left;
+ padding: 0 310px;
+}
+#other hr{
+   margin-left: 200px;
+}
+
+/* END OF OTHER */
+/* BURGER */
+
+#burger{
+    background-color: rgb(86, 87, 83);
+    color:snow ;
+    width: 100%;
+    height: 200px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-family: serif;
+}
+
+.box1 h4{
+    padding-top: 20px;
+}
+
+.box1 ul{
+    margin:0 auto;;
+   width: 100%;
+   height: 80px;
+   display: block;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 15px; 
+}
+.box1 hr{
+    display: block;
+    margin-left: -8px;
+    margin-bottom: 7px;
+}
+.box1 a{
+    color: snow;
+    text-decoration: none;
+    
+}
+
+.box2 h4{
+    padding-top: 20px;
+}
+
+.box2 ul{
+    margin:0 auto;;
+   width: 100%;
+   height: 80px;
+   display: block;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 15px; 
+}
+.box2 hr{
+    display: block;
+    margin-left: -8px;
+    margin-bottom: 7px;
+}
+.box2 a{
+    color: snow;
+    text-decoration: none;
+    
+}
+
+.box3 h4{
+    padding-top: 20px;
+}
+
+.box3 ul{
+    margin:0 auto;;
+   width: 100%;
+   height: 80px;
+   display: block;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 15px; 
+}
+.box3 hr{
+    display: block;
+    margin-left: -8px;
+    margin-bottom: 7px;
+}
+.box3 a{
+    color: snow;
+    text-decoration: none;
+    
+}
+
+.box4 h4{
+    padding-top: 20px;
+}
+
+.box4 ul{
+    margin:0 auto;;
+   width: 100%;
+   height: 80px;
+   display: block;
+   list-style-type: none;
+   justify-content: center;
+   font-size: 15px; 
+}
+.box4 hr{
+    display: block;
+    margin-left: -8px;
+    margin-bottom: 7px;
+}
+.box4 a{
+    color: snow;
+    text-decoration: none;
+    
+}
+/* END OF BURGER */
+/* FOOTER */
+footer{
+    width: 100%;
+    height: 40px;
+    background-color:  rgb(39, 41, 35);
+    text-align: center;
+    font-size: 30px; 
+    font-family: inherit;
+}
